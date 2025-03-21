@@ -1,0 +1,32 @@
+2025-03-21 15:42:08,704 - __main__ - INFO - Starting bot...
+2025-03-21 15:42:09,125 - __main__ - INFO - Bot built successfully
+2025-03-21 15:42:09,125 - __main__ - INFO - Handlers added successfully
+2025-03-21 15:42:09,967 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+2025-03-21 15:42:10,221 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+2025-03-21 15:42:10,222 - telegram.ext.Application - INFO - Application started
+2025-03-21 15:42:20,958 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+2025-03-21 15:42:34,220 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+2025-03-21 15:42:47,513 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+2025-03-21 15:43:00,778 - Krishta Bot - INFO - Starting bot...
+2025-03-21 15:43:01,184 - Krishta Bot - INFO - Bot built successfully
+2025-03-21 15:43:01,184 - Krishta Bot - INFO - Handlers added successfully
+2025-03-21 15:43:01,994 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+2025-03-21 15:43:02,243 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+2025-03-21 15:43:02,244 - telegram.ext.Application - INFO - Application started
+2025-03-21 15:43:13,015 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+2025-03-21 15:43:26,278 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+2025-03-21 15:43:39,589 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+2025-03-21 15:43:52,866 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+2025-03-21 15:44:06,131 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+2025-03-21 15:44:19,385 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+2025-03-21 15:44:32,733 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 15:44:47,003] Krishta Bot INFO -> Starting bot...
+[2025-03-21 15:44:47,404] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 15:44:47,404] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 15:44:48,230] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 15:44:48,523] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 15:44:48,524] telegram.ext.Application INFO -> Application started
+[2025-03-21 15:44:58,871] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 15:44:58,871] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
+[2025-03-21 15:44:58,872] telegram.ext.Application INFO -> Application.stop() complete
+[2025-03-21 15:44:58,872] Krishta Bot INFO -> Bot started running successfully
