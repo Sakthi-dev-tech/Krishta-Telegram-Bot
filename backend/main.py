@@ -1,5 +1,6 @@
 from telegram.ext import ApplicationBuilder, CommandHandler
 from functions.start import start
+from functions.chat import chat_handler
 import os
 import logging
 from dotenv import load_dotenv
@@ -28,6 +29,7 @@ def main() -> None:
         logger.info("Bot built successfully")
 
         application.add_handler(CommandHandler("start", start))
+        application.add_handler(chat_handler)
         logger.info("Handlers added successfully")
 
         application.run_polling(poll_interval=3)

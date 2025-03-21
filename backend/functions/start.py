@@ -1,6 +1,8 @@
 from telegram import ForceReply, Update
 from telegram.ext import ContextTypes
-from main import logger
+import logging
+
+logger = logging.getLogger("Krishta Bot/start")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""

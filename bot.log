@@ -30,3 +30,1102 @@
 [2025-03-21 15:44:58,871] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
 [2025-03-21 15:44:58,872] telegram.ext.Application INFO -> Application.stop() complete
 [2025-03-21 15:44:58,872] Krishta Bot INFO -> Bot started running successfully
+[2025-03-21 18:10:46,072] Krishta Bot INFO -> Starting bot...
+[2025-03-21 18:10:46,434] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 18:10:46,434] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 18:10:47,264] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 18:10:47,542] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 18:10:47,544] telegram.ext.Application INFO -> Application started
+[2025-03-21 18:10:48,474] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:10:48,952] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:10:55,543] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:10:56,509] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:10:58,843] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:11:07,962] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:11:07,962] Krishta Bot/chat INFO -> User 1338807269 asked: Hello
+[2025-03-21 18:11:07,963] Krishta Bot/chat ERROR -> Error in chat function: Models.generate_content() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 30, in chat
+    response = client.models.generate_content(user_message)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Models.generate_content() takes 1 positional argument but 2 were given
+[2025-03-21 18:11:08,938] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:11:21,235] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:11:24,928] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:11:24,929] Krishta Bot/chat INFO -> User 1338807269 asked: what is python?
+[2025-03-21 18:11:24,929] Krishta Bot/chat ERROR -> Error in chat function: Models.generate_content() takes 1 positional argument but 2 were given
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 30, in chat
+    response = client.models.generate_content(user_message)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Models.generate_content() takes 1 positional argument but 2 were given
+[2025-03-21 18:11:25,927] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:11:38,182] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:11:51,441] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:12:04,714] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:12:17,981] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:12:47,073] Krishta Bot INFO -> Starting bot...
+[2025-03-21 18:12:47,421] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 18:12:47,421] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 18:12:48,240] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 18:12:48,518] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 18:12:48,519] telegram.ext.Application INFO -> Application started
+[2025-03-21 18:12:52,664] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:12:52,665] Krishta Bot/chat INFO -> User 1338807269 asked: what are you?
+[2025-03-21 18:12:52,665] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:12:54,283] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 18:12:54,283] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:12:55,361] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:12:55,361] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:13:07,466] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:13:20,671] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:13:24,156] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:13:37,334] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:13:50,535] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:14:03,726] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:14:16,910] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:14:30,195] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:14:43,376] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:14:56,590] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:15:09,785] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:15:22,989] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:15:36,174] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:15:49,353] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:16:02,547] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:16:15,733] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:16:16,337] asyncio ERROR -> Task was destroyed but it is pending!
+task: <Task pending name='Application:7598428388:update_fetcher' coro=<Application._update_fetcher() running at C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_application.py:1221> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+[2025-03-21 18:16:16,339] asyncio ERROR -> Task was destroyed but it is pending!
+task: <Task pending name='Updater:start_polling:polling_task' coro=<network_retry_loop() running at C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_utils\networkloop.py:152> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[Task.task_wakeup()]>
+[2025-03-21 18:16:21,261] Krishta Bot INFO -> Starting bot...
+[2025-03-21 18:16:21,632] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 18:16:21,633] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 18:16:22,516] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 18:16:22,773] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 18:16:22,774] telegram.ext.Application INFO -> Application started
+[2025-03-21 18:16:26,646] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:16:26,647] Krishta Bot/chat INFO -> User 1338807269 asked: hello
+[2025-03-21 18:16:26,647] Krishta Bot/chat ERROR -> Error in chat function: 'function' object has no attribute 'send_message'
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 31, in chat
+    response = chat.send_message(
+               ^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'send_message'
+[2025-03-21 18:16:27,088] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:16:39,901] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:16:53,166] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:17:06,432] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:17:19,684] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:17:32,967] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:20:46,850] Krishta Bot INFO -> Starting bot...
+[2025-03-21 18:20:47,247] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 18:20:47,247] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 18:20:48,136] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 18:20:48,440] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 18:20:48,441] telegram.ext.Application INFO -> Application started
+[2025-03-21 18:20:55,929] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:20:55,930] Krishta Bot/chat INFO -> User 1338807269 asked: I have 2 dogs in my home
+[2025-03-21 18:20:55,930] Krishta Bot/chat ERROR -> Error in chat function: Chat.send_message() got an unexpected keyword argument 'model'
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 31, in chat
+    response = chatModel.send_message(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Chat.send_message() got an unexpected keyword argument 'model'
+[2025-03-21 18:20:57,018] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:21:09,213] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:21:22,475] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:21:28,197] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:21:28,198] Krishta Bot/chat INFO -> User 1338807269 asked: hello
+[2025-03-21 18:21:28,198] Krishta Bot/chat ERROR -> Error in chat function: Chat.send_message() got an unexpected keyword argument 'model'
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 31, in chat
+    response = chatModel.send_message(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Chat.send_message() got an unexpected keyword argument 'model'
+[2025-03-21 18:21:29,178] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:21:36,446] Krishta Bot INFO -> Starting bot...
+[2025-03-21 18:21:36,815] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 18:21:36,815] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 18:21:37,618] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 18:21:37,870] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 18:21:37,871] telegram.ext.Application INFO -> Application started
+[2025-03-21 18:21:43,390] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:21:43,390] Krishta Bot/chat INFO -> User 1338807269 asked: I have 2 dogs in my home
+[2025-03-21 18:21:43,390] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:21:45,404] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 18:21:45,405] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:21:46,122] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:21:46,123] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:21:56,299] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:21:56,301] Krishta Bot/chat INFO -> User 1338807269 asked: How many paws are there in my home?
+[2025-03-21 18:21:56,301] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:21:57,015] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 18:21:57,016] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:21:57,997] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:21:57,998] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:22:08,559] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:22:21,819] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:25:42,308] Krishta Bot INFO -> Starting bot...
+[2025-03-21 18:25:42,672] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 18:25:42,672] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 18:25:43,590] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 18:25:43,767] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 18:25:43,768] telegram.ext.Application INFO -> Application started
+[2025-03-21 18:25:46,729] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:25:47,088] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:25:54,818] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:25:54,819] Krishta Bot/chat INFO -> User 1338807269 asked: I have 2 dogs in my home
+[2025-03-21 18:25:54,819] Krishta Bot/chat ERROR -> Error in chat function: 'Client' object has no attribute 'chat'
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 34, in handle_message
+    response = client.chat(user_message)
+               ^^^^^^^^^^^
+AttributeError: 'Client' object has no attribute 'chat'. Did you mean: 'chats'?
+[2025-03-21 18:25:55,785] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:26:08,077] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:26:21,343] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:26:34,649] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:26:47,937] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:27:01,235] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:27:15,052] Krishta Bot INFO -> Starting bot...
+[2025-03-21 18:27:15,408] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 18:27:15,409] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 18:27:16,414] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 18:27:16,714] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 18:27:16,714] telegram.ext.Application INFO -> Application started
+[2025-03-21 18:27:18,834] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:27:19,270] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:27:22,096] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:27:22,097] Krishta Bot/chat INFO -> User 1338807269 asked: I have 2 dogs in my home
+[2025-03-21 18:27:22,097] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:27:22,853] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 18:27:22,854] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:27:23,291] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:27:23,291] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:27:28,195] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:27:28,196] Krishta Bot/chat INFO -> User 1338807269 asked: how many paws are there in my home?
+[2025-03-21 18:27:28,197] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:27:28,816] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 18:27:28,817] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:27:29,561] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:27:29,562] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:27:33,614] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:27:33,980] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:27:36,881] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:27:50,143] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:28:03,421] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:28:16,687] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:28:29,960] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:28:43,217] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:28:56,496] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:29:09,758] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:29:23,011] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:29:36,297] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:29:39,550] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:29:39,551] Krishta Bot/start INFO -> User started bot
+[2025-03-21 18:29:40,323] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:29:42,812] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:29:46,061] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:29:46,062] Krishta Bot/start INFO -> User started bot
+[2025-03-21 18:29:47,064] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:29:57,693] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:29:58,708] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:30:02,718] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:30:03,165] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:30:05,962] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:30:05,963] Krishta Bot/chat INFO -> User 1558616234 asked: Hii
+[2025-03-21 18:30:05,964] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:30:06,596] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 18:30:06,597] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:30:07,050] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:30:07,051] Krishta Bot/chat INFO -> Response sent to user 1558616234
+[2025-03-21 18:30:07,051] Krishta Bot/chat INFO -> User 1338807269 asked: hey
+[2025-03-21 18:30:07,052] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:30:07,541] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 18:30:07,542] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:30:07,984] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:30:07,985] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:30:09,845] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:30:09,846] Krishta Bot/chat INFO -> User 1558616234 asked: What can you do
+[2025-03-21 18:30:09,847] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:30:11,334] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 18:30:11,335] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:30:11,592] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:30:11,593] Krishta Bot/chat ERROR -> Error in chat function: Can't parse entities: can't find end of the entity starting at byte offset 772
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 38, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 772
+[2025-03-21 18:30:12,222] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:30:14,584] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:30:15,031] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:30:27,841] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:30:41,108] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:30:54,356] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:31:07,811] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:31:21,095] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:31:34,363] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:31:47,626] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:32:00,906] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:33:28,828] Krishta Bot INFO -> Starting bot...
+[2025-03-21 18:33:29,204] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 18:33:29,204] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 18:33:30,179] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 18:33:30,430] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 18:33:30,432] telegram.ext.Application INFO -> Application started
+[2025-03-21 18:33:40,971] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:33:51,839] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:33:52,601] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:33:52,602] telegram.ext.Application ERROR -> No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_application.py", line 1298, in process_update
+    await coroutine
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_handlers\conversationhandler.py", line 842, in handle_update
+    new_state: object = await handler.handle_update(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 18, in start_chat
+    logger.log(f"Chat session started with user {update.effective_user.id}")
+TypeError: Logger.log() missing 1 required positional argument: 'msg'
+[2025-03-21 18:34:05,019] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:34:18,208] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:34:31,395] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:34:44,578] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:34:45,332] asyncio ERROR -> Task was destroyed but it is pending!
+task: <Task pending name='Application:7598428388:update_fetcher' coro=<Application._update_fetcher() running at C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_application.py:1221> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+[2025-03-21 18:34:45,333] asyncio ERROR -> Task was destroyed but it is pending!
+task: <Task pending name='Updater:start_polling:polling_task' coro=<network_retry_loop() running at C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_utils\networkloop.py:152> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[Task.task_wakeup()]>
+[2025-03-21 18:34:49,743] Krishta Bot INFO -> Starting bot...
+[2025-03-21 18:34:50,098] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 18:34:50,098] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 18:34:50,930] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 18:34:51,231] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 18:34:51,232] telegram.ext.Application INFO -> Application started
+[2025-03-21 18:34:53,263] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:34:53,724] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:34:53,725] telegram.ext.Application ERROR -> No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_application.py", line 1298, in process_update
+    await coroutine
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_handlers\conversationhandler.py", line 842, in handle_update
+    new_state: object = await handler.handle_update(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 18, in start_chat
+    logger.log(msg=f"Chat session started with user {update.effective_user.id}")
+TypeError: Logger.log() missing 1 required positional argument: 'level'
+[2025-03-21 18:35:06,539] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:35:19,810] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:35:33,101] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:35:46,365] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:35:59,618] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:36:13,317] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:36:26,622] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:36:27,540] asyncio ERROR -> Task was destroyed but it is pending!
+task: <Task pending name='Application:7598428388:update_fetcher' coro=<Application._update_fetcher() running at C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_application.py:1221> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+[2025-03-21 18:36:27,541] asyncio ERROR -> Task was destroyed but it is pending!
+task: <Task pending name='Updater:start_polling:polling_task' coro=<network_retry_loop() running at C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_utils\networkloop.py:152> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[Task.task_wakeup()]>
+[2025-03-21 18:36:32,010] Krishta Bot INFO -> Starting bot...
+[2025-03-21 18:36:32,386] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 18:36:32,386] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 18:36:33,190] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 18:36:33,444] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 18:36:33,445] telegram.ext.Application INFO -> Application started
+[2025-03-21 18:36:36,532] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:36:36,970] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:36:36,971] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 18:36:43,785] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:36:43,786] Krishta Bot/chat INFO -> User 1338807269 asked: I got 4 cats
+[2025-03-21 18:36:43,786] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:36:44,537] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 18:36:44,538] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:36:44,538] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 18:36:45,475] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:36:45,476] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:36:52,979] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:36:52,979] Krishta Bot/chat INFO -> User 1338807269 asked: how many paws do they have?
+[2025-03-21 18:36:52,980] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:36:53,762] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 18:36:53,764] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:36:53,764] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 18:36:54,902] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:36:54,902] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:37:00,750] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:37:01,734] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:37:01,735] Krishta Bot/chat INFO -> Chat session ended with user 1338807269
+[2025-03-21 18:37:14,048] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:37:27,321] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:37:40,600] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:37:53,875] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:38:07,134] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:38:20,409] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:38:23,665] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:38:37,001] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:38:50,267] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:38:53,529] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:38:53,529] Krishta Bot/start INFO -> User started bot
+[2025-03-21 18:38:54,548] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:38:58,407] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:38:58,953] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:38:58,955] Krishta Bot/chat INFO -> Chat session started with user 1558616234
+[2025-03-21 18:39:05,122] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:39:05,123] Krishta Bot/chat INFO -> User 1558616234 asked: What colour is my phone
+[2025-03-21 18:39:05,123] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:39:06,873] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 18:39:06,874] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:39:06,874] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 18:39:07,838] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:39:07,839] Krishta Bot/chat INFO -> Response sent to user 1558616234
+[2025-03-21 18:39:20,153] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:39:33,440] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:39:46,705] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:39:59,976] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:40:13,269] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:40:26,554] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:40:39,817] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:40:53,631] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:41:07,054] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:41:20,524] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:41:33,886] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:41:47,150] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:42:00,440] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:42:13,706] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:42:26,981] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:42:40,248] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:42:53,530] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:43:06,791] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:43:20,062] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:43:33,318] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:43:46,595] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:43:59,871] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:44:13,150] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:44:26,417] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:47:07,341] Krishta Bot INFO -> Starting bot...
+[2025-03-21 18:47:07,728] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 18:47:07,728] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 18:47:08,585] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 18:47:08,837] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 18:47:08,838] telegram.ext.Application INFO -> Application started
+[2025-03-21 18:47:10,563] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:47:10,999] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:47:11,000] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 18:47:13,740] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:47:13,740] Krishta Bot/chat INFO -> User 1338807269 asked: Hey
+[2025-03-21 18:47:14,185] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:47:14,186] Krishta Bot/chat ERROR -> Error in chat function: 'async for' requires an object with __aiter__ method, got generator
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 37, in handle_message
+    async for chunk in response:
+TypeError: 'async for' requires an object with __aiter__ method, got generator
+[2025-03-21 18:47:14,629] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:47:26,949] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:47:40,132] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:47:53,324] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:48:06,510] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:48:19,688] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:48:47,665] Krishta Bot INFO -> Starting bot...
+[2025-03-21 18:48:48,034] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 18:48:48,035] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 18:48:48,941] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 18:48:49,208] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 18:48:49,209] telegram.ext.Application INFO -> Application started
+[2025-03-21 18:48:50,072] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:48:50,517] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:48:50,517] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 18:48:53,952] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:48:53,952] Krishta Bot/chat INFO -> User 1338807269 asked: hey
+[2025-03-21 18:48:54,402] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:48:54,838] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:48:54,839] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:48:54,839] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:48:55,271] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+[2025-03-21 18:48:55,721] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:48:56,147] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:48:56,763] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:48:57,445] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:48:58,012] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:48:58,013] Krishta Bot/chat ERROR -> Failed to send final message: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+[2025-03-21 18:48:58,013] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:49:02,577] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:49:02,578] Krishta Bot/chat INFO -> User 1338807269 asked: what can you do?
+[2025-03-21 18:49:03,019] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:49:03,451] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:49:03,453] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:49:03,453] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:49:03,912] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+[2025-03-21 18:49:04,352] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:49:04,801] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:49:05,250] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:49:05,751] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:49:06,253] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:49:06,746] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:49:07,074] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:49:07,074] Krishta Bot/chat WARNING -> Failed to edit message: Can't parse entities: can't find end of the entity starting at byte offset 128
+[2025-03-21 18:49:07,529] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:49:08,020] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:49:08,550] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:49:08,992] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:49:09,419] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:49:09,864] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:49:10,325] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:49:10,780] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:49:11,206] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:49:11,464] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:49:11,465] Krishta Bot/chat WARNING -> Failed to edit message: Can't parse entities: can't find end of the entity starting at byte offset 1224
+[2025-03-21 18:49:11,897] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:49:12,154] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:49:12,155] Krishta Bot/chat WARNING -> Failed to edit message: Can't parse entities: can't find end of the entity starting at byte offset 1483
+[2025-03-21 18:49:12,587] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:49:13,068] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:49:13,516] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:49:14,070] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:49:14,514] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:49:14,783] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:49:14,783] Krishta Bot/chat WARNING -> Failed to edit message: Can't parse entities: can't find end of the entity starting at byte offset 2347
+[2025-03-21 18:49:15,209] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:49:15,461] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:49:15,462] Krishta Bot/chat WARNING -> Failed to edit message: Can't parse entities: can't find end of the entity starting at byte offset 2347
+[2025-03-21 18:49:15,895] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:49:15,912] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:49:16,150] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:49:16,150] Krishta Bot/chat ERROR -> Failed to send final message: Can't parse entities: can't find end of the entity starting at byte offset 2347
+[2025-03-21 18:49:16,150] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:49:29,162] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:49:42,421] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:49:55,680] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:50:08,937] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:50:22,199] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:50:25,459] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:50:25,459] Krishta Bot/chat INFO -> User 1338807269 asked: Tell me a joke
+[2025-03-21 18:50:26,414] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:50:26,842] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:50:26,842] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:50:26,843] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:50:27,318] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+[2025-03-21 18:50:27,749] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:50:28,167] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:50:28,600] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:50:29,032] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:50:29,465] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:50:29,465] Krishta Bot/chat ERROR -> Failed to send final message: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+[2025-03-21 18:50:29,465] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:50:33,530] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:50:33,531] Krishta Bot/chat INFO -> User 1338807269 asked: another one
+[2025-03-21 18:50:34,079] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:50:34,501] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:50:34,502] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:50:34,502] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:50:34,965] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+[2025-03-21 18:50:35,397] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:50:35,823] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:50:36,279] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:50:36,705] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:50:37,136] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:50:37,560] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:50:37,985] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:50:37,986] Krishta Bot/chat ERROR -> Failed to send final message: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+[2025-03-21 18:50:37,986] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:50:46,793] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:51:00,075] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:51:13,337] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:51:26,599] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:51:39,857] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:52:17,034] Krishta Bot INFO -> Starting bot...
+[2025-03-21 18:52:17,402] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 18:52:17,402] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 18:52:18,553] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 18:52:19,003] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 18:52:19,004] telegram.ext.Application INFO -> Application started
+[2025-03-21 18:52:20,503] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:52:20,934] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:52:20,935] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 18:52:33,763] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:52:37,038] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:52:37,039] Krishta Bot/chat INFO -> User 1338807269 asked: is chatgpt better than you?
+[2025-03-21 18:52:37,766] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:52:37,767] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:52:37,767] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:52:38,394] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+[2025-03-21 18:52:38,776] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:52:39,133] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:52:39,506] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:52:39,871] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:52:40,242] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:52:40,609] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:52:40,997] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:52:41,350] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:52:41,526] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:52:41,527] Krishta Bot/chat WARNING -> Failed to edit message: Can't parse entities: can't find end of the entity starting at byte offset 408
+[2025-03-21 18:52:41,911] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:52:42,273] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:52:42,446] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:52:42,446] Krishta Bot/chat WARNING -> Failed to edit message: Can't parse entities: can't find end of the entity starting at byte offset 893
+[2025-03-21 18:52:42,661] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:52:42,661] Krishta Bot/chat WARNING -> Failed to edit message: Can't parse entities: can't find end of the entity starting at byte offset 1277
+[2025-03-21 18:52:43,026] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:52:43,386] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:52:43,563] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:52:43,563] Krishta Bot/chat WARNING -> Failed to edit message: Can't parse entities: can't find end of the entity starting at byte offset 1791
+[2025-03-21 18:52:43,759] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:52:43,760] Krishta Bot/chat WARNING -> Failed to edit message: Can't parse entities: can't find end of the entity starting at byte offset 1791
+[2025-03-21 18:52:43,965] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:52:43,966] Krishta Bot/chat ERROR -> Failed to send final message: Can't parse entities: can't find end of the entity starting at byte offset 1791
+[2025-03-21 18:52:43,966] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:52:50,307] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:53:03,579] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:53:16,847] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:53:30,107] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:53:43,400] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:53:56,661] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:55:56,229] Krishta Bot INFO -> Starting bot...
+[2025-03-21 18:55:56,587] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 18:55:56,588] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 18:55:57,445] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 18:55:57,699] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 18:55:57,700] telegram.ext.Application INFO -> Application started
+[2025-03-21 18:55:59,580] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:56:00,059] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:56:00,059] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 18:56:04,504] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:56:04,504] Krishta Bot/chat INFO -> User 1338807269 asked: is ChatGPT better than you?
+[2025-03-21 18:56:04,985] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:56:04,986] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:56:04,986] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:56:05,502] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+[2025-03-21 18:56:05,938] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:06,366] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:06,847] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:07,294] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:07,748] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:08,177] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:08,625] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:09,059] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:09,530] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:09,957] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:10,437] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:10,940] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:11,391] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:11,841] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:12,279] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:12,703] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:13,217] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:13,910] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:13,911] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:56:17,773] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:56:31,048] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:56:40,179] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:56:40,180] Krishta Bot/chat INFO -> User 1338807269 asked: Who would in a battle between you and Grok?
+[2025-03-21 18:56:41,113] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:56:41,114] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:56:41,114] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:56:41,697] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+[2025-03-21 18:56:42,128] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:42,556] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:42,979] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:43,393] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:43,822] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:44,241] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:44,681] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:45,112] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:45,588] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:46,011] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:46,454] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:46,881] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:47,315] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:47,740] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:48,172] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:48,588] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:49,026] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:49,452] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:49,902] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:50,332] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:50,765] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:51,188] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:51,639] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:56:52,057] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:56:52,058] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:56:53,494] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:57:06,753] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:57:20,150] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:57:33,443] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:57:46,735] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:58:00,050] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:58:13,379] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:58:26,645] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:58:39,906] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:58:53,165] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:59:07,603] Krishta Bot INFO -> Starting bot...
+[2025-03-21 18:59:07,960] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 18:59:07,960] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 18:59:09,070] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 18:59:09,486] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 18:59:09,487] telegram.ext.Application INFO -> Application started
+[2025-03-21 18:59:11,296] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:59:11,727] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:59:11,727] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 18:59:14,562] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:59:14,562] Krishta Bot/chat INFO -> User 1338807269 asked: are you friendly?
+[2025-03-21 18:59:15,007] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 18:59:15,008] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 18:59:15,008] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 18:59:15,486] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+[2025-03-21 18:59:15,938] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 18:59:16,417] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 18:59:16,679] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:59:16,680] Krishta Bot/chat WARNING -> Failed to edit message: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+[2025-03-21 18:59:16,927] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:59:16,928] Krishta Bot/chat WARNING -> Failed to edit message: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+[2025-03-21 18:59:17,188] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:59:17,189] Krishta Bot/chat WARNING -> Failed to edit message: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+[2025-03-21 18:59:17,454] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:59:17,455] Krishta Bot/chat WARNING -> Failed to edit message: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+[2025-03-21 18:59:17,710] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:59:17,711] Krishta Bot/chat WARNING -> Failed to edit message: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+[2025-03-21 18:59:17,979] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 18:59:17,980] Krishta Bot/chat ERROR -> Failed to send final message: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+[2025-03-21 18:59:17,980] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 18:59:27,833] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:59:41,095] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 18:59:54,362] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:00:07,627] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:00:20,885] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:00:30,196] Krishta Bot INFO -> Starting bot...
+[2025-03-21 19:00:30,547] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 19:00:30,547] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 19:00:31,367] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 19:00:31,632] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 19:00:31,633] telegram.ext.Application INFO -> Application started
+[2025-03-21 19:00:32,812] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:00:33,267] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:00:33,268] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 19:00:40,079] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:00:40,080] Krishta Bot/chat INFO -> User 1338807269 asked: Give me an introduction of yourself
+[2025-03-21 19:00:41,030] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:00:41,031] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 19:00:41,031] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 19:00:41,635] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+[2025-03-21 19:00:42,073] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:00:42,489] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:00:42,943] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:00:43,362] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:00:43,880] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:00:44,307] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:00:44,814] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:00:45,325] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:00:45,771] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:00:46,283] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:00:46,735] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:00:47,182] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:00:47,632] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:00:48,100] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:00:48,555] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:00:48,977] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:00:49,417] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:00:50,003] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:00:50,441] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:00:50,876] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:00:51,313] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:00:51,765] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:00:52,206] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:00:52,623] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:00:52,624] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 19:00:53,337] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:01:06,591] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:01:19,847] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:01:33,113] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:01:46,395] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:01:59,654] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:02:12,919] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:02:22,799] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:02:22,800] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
+[2025-03-21 19:02:22,800] telegram.ext.Application INFO -> Application.stop() complete
+[2025-03-21 19:02:22,800] Krishta Bot INFO -> Bot started running successfully
+[2025-03-21 19:03:18,530] Krishta Bot INFO -> Starting bot...
+[2025-03-21 19:03:18,886] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 19:03:18,887] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 19:03:19,739] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 19:03:19,994] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 19:03:19,996] telegram.ext.Application INFO -> Application started
+[2025-03-21 19:03:21,987] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:03:22,453] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:03:22,454] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 19:03:27,678] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:03:27,679] Krishta Bot/chat INFO -> User 1338807269 asked: how many cats do I have?
+[2025-03-21 19:03:28,677] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:03:28,678] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 19:03:28,678] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 19:03:29,164] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+[2025-03-21 19:03:29,610] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:30,033] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:30,479] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:30,904] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:31,358] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:31,797] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:32,237] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:32,663] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:33,107] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:33,544] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:33,545] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 19:03:39,230] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:03:39,230] Krishta Bot/chat INFO -> User 1338807269 asked: Tell me about yourself
+[2025-03-21 19:03:40,171] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:03:40,172] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 19:03:40,172] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 19:03:40,675] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:streamGenerateContent?alt=sse "HTTP/1.1 200 OK"
+[2025-03-21 19:03:41,104] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:41,525] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:41,967] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:42,425] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:42,856] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:43,272] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:43,735] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:44,155] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:44,585] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:45,054] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:45,486] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:45,907] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:46,367] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:46,790] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:47,226] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:47,654] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:48,098] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:48,514] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:48,969] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:49,396] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:49,827] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:03:50,514] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 19:03:50,514] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 19:03:52,531] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:04:05,809] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:04:19,068] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:04:32,348] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:04:45,617] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:04:58,874] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:05:12,140] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:05:25,409] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:05:38,677] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:05:51,938] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:06:05,200] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:06:18,470] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:06:31,743] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:06:45,011] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:06:58,276] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:07:11,555] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:07:24,822] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:07:38,122] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:07:51,385] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:08:04,652] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:08:19,047] Krishta Bot INFO -> Starting bot...
+[2025-03-21 19:08:19,426] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 19:08:19,426] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 19:08:20,051] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 19:08:20,234] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 19:08:20,235] telegram.ext.Application INFO -> Application started
+[2025-03-21 19:08:24,288] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:08:24,659] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:08:24,660] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 19:08:34,115] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:08:34,116] Krishta Bot/chat INFO -> User 1338807269 asked: what is the best place to go for holidays
+[2025-03-21 19:08:35,116] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:08:35,118] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 19:08:39,347] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 19:08:39,349] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 19:08:39,349] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 19:08:39,604] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 19:08:39,605] Krishta Bot/chat ERROR -> Error in chat function: Can't parse entities: can't find end of the entity starting at byte offset 2976
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 47, in handle_message
+    await initial_message.edit_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 3755, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 1711, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 4285, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 2976
+[2025-03-21 19:08:40,055] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:08:50,117] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:09:03,374] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:09:16,625] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:09:29,904] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:09:43,160] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:09:56,456] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:10:09,733] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:10:22,721] Krishta Bot INFO -> Starting bot...
+[2025-03-21 19:10:23,079] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 19:10:23,079] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 19:10:23,915] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 19:10:24,162] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 19:10:24,163] telegram.ext.Application INFO -> Application started
+[2025-03-21 19:10:26,268] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:10:26,749] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:10:26,749] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 19:10:32,414] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:10:32,415] Krishta Bot/chat INFO -> User 1338807269 asked: best places to go for holidays
+[2025-03-21 19:10:33,419] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:10:33,420] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 19:10:37,221] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 19:10:37,222] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 19:10:37,222] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 19:10:37,469] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 19:10:37,470] Krishta Bot/chat ERROR -> Error in chat function: Can't parse entities: character '!' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 62, in handle_message
+    await initial_message.edit_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 3755, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 1711, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 4285, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '!' is reserved and must be escaped with the preceding '\'
+[2025-03-21 19:10:37,981] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:10:47,475] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:11:00,724] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:11:13,985] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:11:27,245] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:11:36,086] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:11:36,086] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
+[2025-03-21 19:11:36,087] telegram.ext.Application INFO -> Application.stop() complete
+[2025-03-21 19:11:36,087] Krishta Bot INFO -> Bot started running successfully
+[2025-03-21 19:11:40,627] Krishta Bot INFO -> Starting bot...
+[2025-03-21 19:11:40,999] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 19:11:40,999] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 19:11:41,829] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 19:11:42,075] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 19:11:42,076] telegram.ext.Application INFO -> Application started
+[2025-03-21 19:11:43,118] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:11:43,641] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:11:43,641] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 19:11:51,615] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:11:51,615] Krishta Bot/chat INFO -> User 1338807269 asked: best place to go for holiday. tell me just 2 places
+[2025-03-21 19:11:52,588] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:11:52,589] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 19:11:53,570] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 19:11:53,575] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 19:11:53,575] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 19:11:53,823] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 19:11:53,823] Krishta Bot/chat ERROR -> Error in chat function: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 65, in handle_message
+    await initial_message.edit_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 3755, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 1711, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 4285, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+[2025-03-21 19:11:54,273] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:12:04,884] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:12:18,143] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:12:31,397] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:12:44,655] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:12:57,911] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:13:00,636] asyncio ERROR -> Task was destroyed but it is pending!
+task: <Task pending name='Application:7598428388:update_fetcher' coro=<Application._update_fetcher() running at C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_application.py:1221> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+[2025-03-21 19:13:00,637] asyncio ERROR -> Task was destroyed but it is pending!
+task: <Task pending name='Updater:start_polling:polling_task' coro=<network_retry_loop() running at C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_utils\networkloop.py:152> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[Task.task_wakeup()]>
+[2025-03-21 19:13:05,288] Krishta Bot INFO -> Starting bot...
+[2025-03-21 19:13:05,643] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 19:13:05,643] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 19:13:06,490] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 19:13:06,750] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 19:13:06,751] telegram.ext.Application INFO -> Application started
+[2025-03-21 19:13:08,945] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:13:09,411] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:13:09,411] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 19:13:13,483] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:13:13,484] Krishta Bot/chat INFO -> User 1338807269 asked: tell me 2 places to go for hols
+[2025-03-21 19:13:13,922] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:13:13,923] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 19:13:15,705] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 19:13:15,706] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 19:13:15,706] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 19:13:15,965] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 400 Bad Request"
+[2025-03-21 19:13:16,410] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:13:16,411] Krishta Bot/chat WARNING -> Failed to parse markdown: Can't parse entities: character '!' is reserved and must be escaped with the preceding '\'
+[2025-03-21 19:13:16,411] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 19:13:26,739] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:13:39,995] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:13:53,258] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:14:06,518] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:14:19,792] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:14:33,096] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:14:46,368] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:14:55,164] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:14:55,165] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
+[2025-03-21 19:14:55,165] telegram.ext.Application INFO -> Application.stop() complete
+[2025-03-21 19:14:55,165] Krishta Bot INFO -> Bot started running successfully
+[2025-03-21 19:14:58,713] Krishta Bot INFO -> Starting bot...
+[2025-03-21 19:14:59,079] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 19:14:59,079] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 19:14:59,978] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 19:15:00,273] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 19:15:00,273] telegram.ext.Application INFO -> Application started
+[2025-03-21 19:15:03,084] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:15:03,532] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:15:03,533] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 19:15:11,147] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:15:11,148] Krishta Bot/chat INFO -> User 1338807269 asked: Give me 2 places for beach side holiday
+[2025-03-21 19:15:12,146] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:15:12,147] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 19:15:14,534] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 19:15:14,535] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 19:15:14,535] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 19:15:14,968] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:15:14,968] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 19:15:24,791] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:15:38,061] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:15:51,330] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:16:04,646] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:16:17,913] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:16:31,197] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:16:44,469] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:16:50,888] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:16:50,888] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
+[2025-03-21 19:16:50,888] telegram.ext.Application INFO -> Application.stop() complete
+[2025-03-21 19:16:50,889] Krishta Bot INFO -> Bot started running successfully
+[2025-03-21 19:16:54,333] Krishta Bot INFO -> Starting bot...
+[2025-03-21 19:16:54,694] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 19:16:54,694] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 19:16:55,571] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 19:16:55,848] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 19:16:55,849] telegram.ext.Application INFO -> Application started
+[2025-03-21 19:16:57,614] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:16:58,064] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:16:58,065] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 19:17:06,750] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:17:06,751] Krishta Bot/chat INFO -> User 1338807269 asked: 2 places where there are volcanoes...short answer
+[2025-03-21 19:17:07,821] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:17:07,822] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 19:17:08,369] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 19:17:08,370] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 19:17:08,370] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 19:17:08,840] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:17:08,841] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 19:17:14,932] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:17:14,932] Krishta Bot/chat INFO -> User 1338807269 asked: ok longer answer on why
+[2025-03-21 19:17:15,871] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:17:15,872] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 19:17:17,711] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 19:17:17,712] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 19:17:17,712] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 19:17:18,155] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:17:18,156] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 19:17:28,194] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:17:31,818] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:17:31,819] Krishta Bot/chat INFO -> User 1338807269 asked: Give me 2 places for beach side holiday
+[2025-03-21 19:17:32,771] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 19:17:32,772] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-21 19:17:34,118] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 19:17:34,123] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-21 19:17:34,123] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 19:17:34,557] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/editMessageText "HTTP/1.1 200 OK"
+[2025-03-21 19:17:34,558] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 19:17:42,520] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 19:17:42,521] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
+[2025-03-21 19:17:42,521] telegram.ext.Application INFO -> Application.stop() complete
+[2025-03-21 19:17:42,521] Krishta Bot INFO -> Bot started running successfully
