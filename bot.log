@@ -1129,3 +1129,1222 @@ task: <Task pending name='Updater:start_polling:polling_task' coro=<network_retr
 [2025-03-21 19:17:42,521] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
 [2025-03-21 19:17:42,521] telegram.ext.Application INFO -> Application.stop() complete
 [2025-03-21 19:17:42,521] Krishta Bot INFO -> Bot started running successfully
+[2025-03-21 22:40:44,899] Krishta Bot INFO -> Starting bot...
+[2025-03-21 22:40:45,249] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 22:40:45,250] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 22:40:46,093] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 22:40:46,372] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 22:40:46,373] telegram.ext.Application INFO -> Application started
+[2025-03-21 22:40:52,350] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:40:52,351] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
+[2025-03-21 22:40:52,351] telegram.ext.Application INFO -> Application.stop() complete
+[2025-03-21 22:40:52,351] Krishta Bot INFO -> Bot started running successfully
+[2025-03-21 22:41:14,295] Krishta Bot INFO -> Starting bot...
+[2025-03-21 22:41:14,659] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 22:41:14,659] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 22:41:15,510] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 22:41:15,770] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 22:41:15,771] telegram.ext.Application INFO -> Application started
+[2025-03-21 22:41:17,654] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:41:18,095] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 22:41:18,096] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 22:41:22,233] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:41:22,742] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 22:41:22,742] Krishta Bot/chat INFO -> User 1338807269 asked: Are you funny?
+[2025-03-21 22:41:23,468] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 22:41:23,470] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 22:41:23,470] Krishta Bot/chat WARNING -> Formatting failed: Message.reply_text() got an unexpected keyword argument 'quote'
+[2025-03-21 22:41:23,471] Krishta Bot/chat ERROR -> Error in chat function: Message.reply_text() got an unexpected keyword argument 'quote'
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 81, in handle_message
+    await update.message.reply_text(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Message.reply_text() got an unexpected keyword argument 'quote'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 90, in handle_message
+    await update.message.reply_text(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Message.reply_text() got an unexpected keyword argument 'quote'
+[2025-03-21 22:41:24,028] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 22:41:35,518] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:41:48,795] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:42:02,067] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:42:04,241] asyncio ERROR -> Task was destroyed but it is pending!
+task: <Task pending name='Application:7598428388:update_fetcher' coro=<Application._update_fetcher() running at C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_application.py:1221> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+[2025-03-21 22:42:04,242] asyncio ERROR -> Task was destroyed but it is pending!
+task: <Task pending name='Updater:start_polling:polling_task' coro=<network_retry_loop() running at C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_utils\networkloop.py:152> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[Task.task_wakeup()]>
+[2025-03-21 22:42:09,006] Krishta Bot INFO -> Starting bot...
+[2025-03-21 22:42:09,355] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 22:42:09,355] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 22:42:10,186] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 22:42:10,451] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 22:42:10,451] telegram.ext.Application INFO -> Application started
+[2025-03-21 22:42:12,579] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:42:13,024] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 22:42:13,025] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 22:42:15,763] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:42:16,195] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 22:42:16,195] Krishta Bot/chat INFO -> User 1338807269 asked: are you funny?
+[2025-03-21 22:42:16,994] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 22:42:16,995] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 22:42:16,996] Krishta Bot/chat WARNING -> Formatting failed: Message.reply_text() got an unexpected keyword argument 'quote'
+[2025-03-21 22:42:17,450] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 22:42:17,450] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 22:42:28,953] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:42:42,141] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:42:55,350] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:42:58,542] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:42:58,543] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
+[2025-03-21 22:42:58,543] telegram.ext.Application INFO -> Application.stop() complete
+[2025-03-21 22:42:58,544] Krishta Bot INFO -> Bot started running successfully
+[2025-03-21 22:43:02,292] Krishta Bot INFO -> Starting bot...
+[2025-03-21 22:43:02,652] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 22:43:02,652] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 22:43:03,463] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 22:43:03,717] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 22:43:03,719] telegram.ext.Application INFO -> Application started
+[2025-03-21 22:43:06,705] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:43:07,179] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 22:43:07,179] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 22:43:10,867] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:43:11,364] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 22:43:11,364] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 22:43:12,991] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 22:43:12,992] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 22:43:13,463] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 22:43:13,463] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 22:43:24,143] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:43:36,749] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:43:37,735] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 22:43:37,735] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 22:43:38,387] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 22:43:38,388] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 22:43:38,893] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 22:43:38,893] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 22:43:49,588] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:43:50,539] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 22:43:50,539] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 22:43:51,250] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 22:43:51,251] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 22:43:51,702] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 22:43:51,703] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 22:43:56,778] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:43:57,702] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 22:43:57,703] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 22:43:58,245] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 22:43:58,247] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 22:43:58,247] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 22:43:58,247] Krishta Bot/chat WARNING -> Formatting failed: 'NoneType' object has no attribute 'replace'
+[2025-03-21 22:43:58,247] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 22:43:58,493] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 22:43:58,493] Krishta Bot/chat ERROR -> Error in chat function: Message text is empty
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 78, in handle_message
+    formatted_text = format_markdown(response.text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 32, in format_markdown
+    text = text.replace('```', '`')
+           ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 89, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+[2025-03-21 22:43:58,961] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 22:44:10,034] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:44:23,300] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:44:36,559] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:44:49,826] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:45:03,091] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:45:16,356] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:45:29,613] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:45:42,911] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:45:56,177] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:46:09,436] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:46:22,694] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:46:31,396] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:46:31,397] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
+[2025-03-21 22:46:31,397] telegram.ext.Application INFO -> Application.stop() complete
+[2025-03-21 22:46:31,398] Krishta Bot INFO -> Bot started running successfully
+[2025-03-21 22:47:18,946] Krishta Bot INFO -> Starting bot...
+[2025-03-21 22:47:19,302] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 22:47:19,302] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 22:47:20,135] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 22:47:20,380] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 22:47:20,381] telegram.ext.Application INFO -> Application started
+[2025-03-21 22:47:22,735] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:47:23,198] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 22:47:23,198] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 22:47:28,738] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:47:29,482] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 22:47:29,482] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 22:47:30,317] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 22:47:30,319] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 22:47:30,319] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 22:47:30,500] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 22:47:30,501] Krishta Bot/chat WARNING -> Formatting failed: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+[2025-03-21 22:47:30,501] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 22:47:30,684] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 22:47:30,684] Krishta Bot/chat ERROR -> Error in chat function: Message text is empty
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 84, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 92, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+[2025-03-21 22:47:31,057] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 22:47:42,011] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:47:55,279] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:48:08,542] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:48:21,819] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:48:35,077] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:48:48,341] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:49:01,593] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:49:14,845] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:49:23,579] Krishta Bot INFO -> Starting bot...
+[2025-03-21 22:49:23,947] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 22:49:23,947] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 22:49:24,767] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 22:49:25,025] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 22:49:25,025] telegram.ext.Application INFO -> Application started
+[2025-03-21 22:49:26,621] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:49:27,056] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 22:49:27,057] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 22:49:30,825] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:49:31,278] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 22:49:31,279] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 22:49:31,917] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 22:49:31,925] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 22:49:31,925] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 22:49:32,173] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 22:49:32,174] Krishta Bot/chat WARNING -> Formatting failed: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+[2025-03-21 22:49:32,174] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 22:49:32,417] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 22:49:32,417] Krishta Bot/chat ERROR -> Error in chat function: Message text is empty
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 84, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 92, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+[2025-03-21 22:49:32,884] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 22:49:44,080] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:49:57,350] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:50:10,605] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:50:23,855] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:50:37,126] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:50:50,394] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:51:03,658] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:51:16,912] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:51:30,161] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:51:43,430] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:51:56,708] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:52:09,959] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:52:23,329] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:52:36,585] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:52:49,853] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:53:03,110] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:53:16,359] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:53:29,620] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:53:42,875] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:53:56,123] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:54:09,381] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:54:22,632] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:54:35,898] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:54:49,152] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:55:02,425] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:55:15,687] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:55:28,955] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:55:42,218] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:55:55,475] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:56:08,731] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:56:21,995] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:56:35,249] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:56:48,520] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:57:01,801] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:57:15,062] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:57:28,314] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:57:41,561] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:57:54,844] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:58:08,181] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:58:21,466] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:58:34,725] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:58:47,983] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:59:01,255] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:59:14,517] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:59:27,774] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:59:41,036] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 22:59:54,283] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:00:07,561] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:00:20,821] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:00:34,073] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:00:47,324] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:01:00,596] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:01:13,858] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:01:27,121] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:01:40,372] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:01:53,623] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:02:06,885] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:02:20,143] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:02:33,411] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:02:46,687] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:03:00,006] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:03:13,269] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:03:26,520] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:03:29,798] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:03:29,799] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
+[2025-03-21 23:03:29,799] telegram.ext.Application INFO -> Application.stop() complete
+[2025-03-21 23:03:29,800] Krishta Bot INFO -> Bot started running successfully
+[2025-03-21 23:03:39,026] Krishta Bot INFO -> Starting bot...
+[2025-03-21 23:03:39,413] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 23:03:39,414] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 23:03:40,284] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 23:03:40,539] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 23:03:40,540] telegram.ext.Application INFO -> Application started
+[2025-03-21 23:03:43,145] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:03:43,619] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:03:43,620] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 23:03:51,030] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:03:52,074] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 23:03:52,074] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 23:03:53,783] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 23:03:53,785] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 23:03:53,786] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 23:03:54,037] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 23:03:54,037] Krishta Bot/chat WARNING -> Formatting failed: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+[2025-03-21 23:03:54,038] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 23:03:54,285] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 23:03:54,286] Krishta Bot/chat ERROR -> Error in chat function: Message text is empty
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 86, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 94, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+[2025-03-21 23:03:54,749] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:04:04,209] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:04:17,439] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:04:23,881] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:04:35,559] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:04:36,570] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:04:36,570] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 23:04:38,753] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:04:39,221] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 23:04:39,221] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 23:04:40,097] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 23:04:40,098] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 23:04:40,575] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:04:40,575] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 23:04:45,941] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:04:46,889] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 23:04:46,890] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 23:04:47,469] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 23:04:47,470] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 23:04:47,935] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:04:47,936] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 23:04:56,450] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:04:57,255] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 23:04:57,256] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 23:04:58,038] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 23:04:58,039] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 23:04:58,040] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 23:04:58,238] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 23:04:58,239] Krishta Bot/chat WARNING -> Formatting failed: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+[2025-03-21 23:04:58,239] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 23:04:58,417] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 23:04:58,417] Krishta Bot/chat ERROR -> Error in chat function: Message text is empty
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 86, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 94, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+[2025-03-21 23:04:58,805] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:05:09,650] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:05:22,858] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:05:36,059] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:05:49,273] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:06:02,448] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:06:15,629] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:06:28,804] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:06:41,980] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:06:55,160] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:07:08,345] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:07:21,541] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:07:34,731] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:07:47,918] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:08:01,102] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:08:14,280] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:08:27,461] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:08:40,652] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:08:53,859] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:09:07,047] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:09:20,240] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:09:33,427] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:09:46,625] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:09:59,815] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:10:13,004] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:10:26,197] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:10:39,388] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:10:52,583] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:11:05,790] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:11:18,968] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:11:32,151] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:11:45,365] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:11:58,544] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:12:11,726] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:12:24,919] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:12:38,106] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:12:51,299] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:13:04,479] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:13:17,665] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:13:30,864] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:13:44,066] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:13:57,244] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:14:10,429] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:14:23,625] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:14:36,817] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:14:49,997] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:15:03,176] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:15:16,356] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:15:29,549] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:15:42,758] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:15:55,980] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:16:09,167] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:16:22,375] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:16:35,554] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:16:48,734] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:17:01,927] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:17:15,128] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:17:28,318] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:17:41,526] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:17:54,714] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:18:07,896] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:18:21,093] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:18:34,279] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:18:47,516] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:19:00,711] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:19:13,904] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:19:27,086] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:19:40,273] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:19:53,487] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:20:06,682] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:20:19,858] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:20:33,063] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:20:46,258] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:20:59,458] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:21:12,642] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:21:25,824] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:21:39,008] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:21:52,202] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:22:05,392] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:22:18,582] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:22:31,776] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:22:44,969] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:22:58,166] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:23:11,359] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:23:24,555] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:23:37,757] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:23:50,944] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:24:04,131] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:24:17,320] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:24:30,552] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:24:43,741] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:24:56,920] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:25:10,764] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:25:24,034] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:25:37,318] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:25:50,602] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:26:03,865] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:26:17,150] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:26:30,428] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:26:43,702] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:26:56,978] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:27:10,280] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:27:23,558] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:27:36,825] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:27:50,094] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:28:03,358] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:28:16,726] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:28:29,993] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:28:43,267] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:29:08,670] Krishta Bot INFO -> Starting bot...
+[2025-03-21 23:29:09,029] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 23:29:09,029] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 23:29:09,927] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 23:29:10,185] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 23:29:10,186] telegram.ext.Application INFO -> Application started
+[2025-03-21 23:29:14,304] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:29:14,787] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:29:14,788] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 23:29:18,159] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:29:18,623] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 23:29:18,624] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 23:29:19,840] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 23:29:19,840] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 23:29:20,287] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:29:20,287] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 23:29:25,462] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:29:26,401] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 23:29:26,401] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 23:29:38,463] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 23:29:38,464] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 23:29:39,416] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:29:39,417] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 23:29:49,241] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:29:52,505] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:29:53,448] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 23:29:53,448] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 23:29:54,699] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 23:29:54,700] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 23:29:55,142] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:29:55,143] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 23:30:05,786] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:30:18,530] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:30:19,505] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 23:30:19,505] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 23:30:21,075] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 23:30:21,076] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 23:30:21,581] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:30:21,581] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 23:30:29,816] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:30:30,530] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 23:30:30,530] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 23:30:31,859] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 23:30:31,860] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 23:30:32,223] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:30:32,224] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 23:30:43,086] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:30:46,353] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:30:47,068] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 23:30:47,068] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 23:30:49,554] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 23:30:49,555] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 23:30:49,555] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 23:30:49,732] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 23:30:49,733] Krishta Bot/chat WARNING -> Formatting failed: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+[2025-03-21 23:30:49,733] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 23:30:49,909] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 23:30:49,909] Krishta Bot/chat ERROR -> Error in chat function: Message text is empty
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 85, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 93, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+[2025-03-21 23:30:50,286] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:30:59,814] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:31:13,086] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:31:26,361] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:31:39,635] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:31:43,836] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:31:57,096] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:32:10,364] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:32:23,639] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:32:26,902] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:32:26,903] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
+[2025-03-21 23:32:26,903] telegram.ext.Application INFO -> Application.stop() complete
+[2025-03-21 23:32:26,903] Krishta Bot INFO -> Bot started running successfully
+[2025-03-21 23:35:06,545] Krishta Bot INFO -> Starting bot...
+[2025-03-21 23:35:06,919] Krishta Bot INFO -> Bot built successfully
+[2025-03-21 23:35:06,919] Krishta Bot INFO -> Handlers added successfully
+[2025-03-21 23:35:07,791] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-21 23:35:08,052] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-21 23:35:08,052] telegram.ext.Application INFO -> Application started
+[2025-03-21 23:35:09,128] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:35:09,598] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:35:09,598] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 23:35:15,583] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:35:16,577] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 23:35:16,578] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 23:35:18,003] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 23:35:18,006] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 23:35:18,470] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:35:18,470] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 23:35:28,858] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:35:32,110] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:35:32,828] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 23:35:32,829] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 23:35:34,382] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 23:35:34,383] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 23:35:34,383] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 23:35:34,561] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 23:35:34,561] Krishta Bot/chat WARNING -> Formatting failed: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+[2025-03-21 23:35:34,561] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 23:35:34,739] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 23:35:34,739] Krishta Bot/chat ERROR -> Error in chat function: Message text is empty
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 93, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 101, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+[2025-03-21 23:35:35,132] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:35:45,376] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:35:58,640] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:36:05,820] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:36:06,758] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 23:36:06,758] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 23:36:10,654] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 23:36:10,655] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 23:36:10,655] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 23:36:10,919] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 23:36:10,919] Krishta Bot/chat WARNING -> Formatting failed: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+[2025-03-21 23:36:10,919] google_genai.types WARNING -> Warning: there are non-text parts in the response: ['function_call'],returning concatenated text from text parts,check out the non text parts for full response from model.
+[2025-03-21 23:36:11,183] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 400 Bad Request"
+[2025-03-21 23:36:11,184] Krishta Bot/chat ERROR -> Error in chat function: Message text is empty
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 93, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '.' is reserved and must be escaped with the preceding '\'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 101, in handle_message
+    await update.message.reply_text(
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_message.py", line 1775, in reply_text
+    return await self.get_bot().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 2977, in send_message
+    return await super().send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 1091, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 618, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 803, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\telegram\request\_baserequest.py", line 353, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+[2025-03-21 23:36:11,642] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:36:18,812] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:36:19,774] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-21 23:36:19,775] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-21 23:36:23,721] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-21 23:36:23,721] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-21 23:36:24,321] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:36:24,321] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-21 23:36:33,982] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:36:44,860] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:36:45,610] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:36:45,611] Krishta Bot/chat INFO -> Chat session ended with user 1338807269
+[2025-03-21 23:36:49,659] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:37:02,941] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:37:06,204] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:37:07,246] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:37:07,247] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-21 23:37:09,462] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-21 23:37:09,899] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-21 23:37:09,900] Krishta Bot/chat INFO -> Chat session ended with user 1338807269
+[2025-03-22 00:13:24,919] Krishta Bot INFO -> Starting bot...
+[2025-03-22 00:13:25,284] Krishta Bot INFO -> Bot built successfully
+[2025-03-22 00:13:25,285] Krishta Bot INFO -> Handlers added successfully
+[2025-03-22 00:13:25,918] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-22 00:13:26,099] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-22 00:13:26,100] telegram.ext.Application INFO -> Application started
+[2025-03-22 00:13:29,545] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:13:32,811] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:13:33,777] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-22 00:13:33,777] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-22 00:13:38,305] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:13:38,731] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-22 00:13:38,732] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-22 00:13:38,732] Krishta Bot/chat ERROR -> Error in chat function: 3 validation errors for GenerateContentConfig
+tools.0.Tool.function
+  Extra inputs are not permitted [type=extra_forbidden, input_value=<function add_task at 0x00000295E0D69940>, input_type=function]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+tools.0.Tool.schema
+  Extra inputs are not permitted [type=extra_forbidden, input_value={'name': 'add_task', 'des..., 'required': ['task']}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+tools.0.callable
+  Input should be callable [type=callable_type, input_value={'function': <function ad... 'required': ['task']}}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/callable_type
+Traceback (most recent call last):
+  File "c:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\backend\functions\chat.py", line 117, in handle_message
+    response = chat.send_message(user_message)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\google\genai\chats.py", line 251, in send_message
+    response = self._modules.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\google\genai\models.py", line 5357, in generate_content
+    if _extra_utils.should_disable_afc(config):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\google\genai\_extra_utils.py", line 266, in should_disable_afc
+    config_model = _create_generate_content_config_model(config)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\google\genai\_extra_utils.py", line 44, in _create_generate_content_config_model
+    return types.GenerateContentConfig(**config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sakthi\Documents\GitHub\Krishta-Telegram-Bot\.venv\Lib\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 3 validation errors for GenerateContentConfig
+tools.0.Tool.function
+  Extra inputs are not permitted [type=extra_forbidden, input_value=<function add_task at 0x00000295E0D69940>, input_type=function]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+tools.0.Tool.schema
+  Extra inputs are not permitted [type=extra_forbidden, input_value={'name': 'add_task', 'des..., 'required': ['task']}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+tools.0.callable
+  Input should be callable [type=callable_type, input_value={'function': <function ad... 'required': ['task']}}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/callable_type
+[2025-03-22 00:13:39,216] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-22 00:13:51,572] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:14:04,904] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:14:11,866] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:14:11,866] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
+[2025-03-22 00:14:11,867] telegram.ext.Application INFO -> Application.stop() complete
+[2025-03-22 00:14:11,867] Krishta Bot INFO -> Bot started running successfully
+[2025-03-22 00:14:24,479] Krishta Bot INFO -> Starting bot...
+[2025-03-22 00:14:24,839] Krishta Bot INFO -> Bot built successfully
+[2025-03-22 00:14:24,839] Krishta Bot INFO -> Handlers added successfully
+[2025-03-22 00:14:25,656] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-22 00:14:25,929] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-22 00:14:25,929] telegram.ext.Application INFO -> Application started
+[2025-03-22 00:14:28,453] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:14:28,921] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-22 00:14:28,921] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-22 00:14:41,457] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:14:42,375] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-22 00:14:42,376] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-22 00:14:42,376] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-22 00:14:43,849] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-22 00:14:43,851] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-22 00:14:43,851] Krishta Bot/task_reminder INFO -> Task reminder called - Task: Go to the gym, Time: 2025-03-23 22:00
+[2025-03-22 00:14:43,851] Krishta Bot/task_reminder INFO -> Would add task: Go to the gym at time: 2025-03-23 22:00:00
+[2025-03-22 00:14:45,172] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-22 00:14:45,173] google_genai.models INFO -> AFC remote call 2 is done.
+[2025-03-22 00:14:45,173] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-22 00:14:45,173] Krishta Bot/chat ERROR -> Function call error: 'NoneType' object has no attribute 'name'
+[2025-03-22 00:14:45,615] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-22 00:14:45,615] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-22 00:14:55,433] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:15:08,757] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:15:22,033] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:15:35,296] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:15:48,647] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:16:01,921] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:16:15,204] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:16:28,227] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:16:28,228] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
+[2025-03-22 00:16:28,228] telegram.ext.Application INFO -> Application.stop() complete
+[2025-03-22 00:16:28,228] Krishta Bot INFO -> Bot started running successfully
+[2025-03-22 00:16:35,456] Krishta Bot INFO -> Starting bot...
+[2025-03-22 00:16:35,845] Krishta Bot INFO -> Bot built successfully
+[2025-03-22 00:16:35,846] Krishta Bot INFO -> Handlers added successfully
+[2025-03-22 00:16:36,559] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-22 00:16:36,734] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-22 00:16:36,734] telegram.ext.Application INFO -> Application started
+[2025-03-22 00:16:38,754] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:16:39,149] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-22 00:16:39,150] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-22 00:16:52,016] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:16:56,477] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:16:57,445] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-22 00:16:57,446] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-22 00:16:57,447] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-22 00:16:59,066] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-22 00:16:59,067] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-22 00:16:59,068] Krishta Bot/task_reminder INFO -> Task reminder called - Task: collect groceries from the store, Time: 2025-04-24 12:00
+[2025-03-22 00:16:59,068] Krishta Bot/task_reminder INFO -> Would add task: collect groceries from the store at time: 2025-04-24 12:00:00
+[2025-03-22 00:17:02,766] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-22 00:17:02,767] google_genai.models INFO -> AFC remote call 2 is done.
+[2025-03-22 00:17:02,767] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-22 00:17:02,767] Krishta Bot/chat INFO -> Function call detected
+[2025-03-22 00:17:02,767] Krishta Bot/chat ERROR -> Function call error: 'NoneType' object has no attribute 'name'
+[2025-03-22 00:17:03,736] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-22 00:17:03,737] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-22 00:17:13,550] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:17:26,808] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:17:40,068] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:17:53,340] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:18:06,609] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:18:19,873] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:18:33,132] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:18:43,669] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:18:43,669] telegram.ext.Application INFO -> Application is stopping. This might take a moment.
+[2025-03-22 00:18:43,669] telegram.ext.Application INFO -> Application.stop() complete
+[2025-03-22 00:18:43,670] Krishta Bot INFO -> Bot started running successfully
+[2025-03-22 00:18:48,365] Krishta Bot INFO -> Starting bot...
+[2025-03-22 00:18:48,733] Krishta Bot INFO -> Bot built successfully
+[2025-03-22 00:18:48,733] Krishta Bot INFO -> Handlers added successfully
+[2025-03-22 00:18:49,584] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getMe "HTTP/1.1 200 OK"
+[2025-03-22 00:18:49,863] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/deleteWebhook "HTTP/1.1 200 OK"
+[2025-03-22 00:18:49,864] telegram.ext.Application INFO -> Application started
+[2025-03-22 00:18:50,649] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:18:51,095] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-22 00:18:51,096] Krishta Bot/chat INFO -> Chat session started with user 1338807269
+[2025-03-22 00:18:54,770] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:18:55,217] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendChatAction "HTTP/1.1 200 OK"
+[2025-03-22 00:18:55,217] Krishta Bot/chat INFO -> User 1338807269 asked a question
+[2025-03-22 00:18:55,218] google_genai.models INFO -> AFC is enabled with max remote calls: 10.
+[2025-03-22 00:18:59,439] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-22 00:18:59,440] google_genai.models INFO -> AFC remote call 1 is done.
+[2025-03-22 00:18:59,441] Krishta Bot/task_reminder INFO -> Task reminder called - Task: collect groceries from the store, Time: 2025-04-24 12:00
+[2025-03-22 00:18:59,441] Krishta Bot/task_reminder INFO -> Would add task: collect groceries from the store at time: 2025-04-24 12:00:00
+[2025-03-22 00:19:01,067] httpx INFO -> HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-pro-exp-02-05:generateContent "HTTP/1.1 200 OK"
+[2025-03-22 00:19:01,069] google_genai.models INFO -> AFC remote call 2 is done.
+[2025-03-22 00:19:01,069] Krishta Bot/chat INFO -> Response received from Gemini
+[2025-03-22 00:19:02,071] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/sendMessage "HTTP/1.1 200 OK"
+[2025-03-22 00:19:02,071] Krishta Bot/chat INFO -> Response sent to user 1338807269
+[2025-03-22 00:19:11,851] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
+[2025-03-22 00:19:25,109] httpx INFO -> HTTP Request: POST https://api.telegram.org/bot7598428388:AAEFYvMEMFgtA0XG3mGp0KLaI0uDaGaHGOs/getUpdates "HTTP/1.1 200 OK"
