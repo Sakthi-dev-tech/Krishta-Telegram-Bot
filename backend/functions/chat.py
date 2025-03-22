@@ -1,37 +1,18 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ContextTypes, ConversationHandler, MessageHandler, filters, CommandHandler
 from telegram.constants import ParseMode
-from gemini_client import client
-from google.genai import types
-from tools.task_reminder import add_task
-from tools.tool_schemas import add_task_config
+from gemini_client import model
 import re
 import logging
-import json
 
 logger = logging.getLogger("Krishta Bot/chat")
 
-config = {
-    "tools": [add_task]
-}
-
-safety_settings = [
-    {
-        "category": "HARM_CATEGORY_HARASSMENT",
-        "threshold": "BLOCK_MEDIUM_AND_ABOVE"
-    },
-    {
-        "category": "HARM_CATEGORY_HATE_SPEECH",
-        "threshold": "BLOCK_MEDIUM_AND_ABOVE"
-    }
-]
 # Define states
 CHATTING = 1
-chat = client.chats.create(
-    model="gemini-2.0-pro-exp-02-05", 
-    config=config
-    )
 
+chat = model.start_chat(
+    enable_automatic_function_calling=True
+    )
 async def start_chat(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     """Start the chat session"""
     await update.message.reply_text(
@@ -84,19 +65,24 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
             chat_id=update.effective_chat.id, 
             action="typing"
         )
+
+        current_msg = await update.message.reply_text(
+            "_Thinking...🤔_",
+            parse_mode="Markdown"
+        )
         
         logger.info(f"User {update.effective_user.id} asked a question")
 
         # Get response from Gemini
         response = chat.send_message(user_message)
-        logger.info("Response received from Gemini") 
+        logger.info("Response received from Gemini")
                             
         try:
             # Format the response
             formatted_text = format_markdown(response.text)
             
             # Send formatted response
-            await update.message.reply_text(
+            await current_msg.edit_text(
                 formatted_text,
                 parse_mode=ParseMode.MARKDOWN_V2,
             )
@@ -104,7 +90,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         except Exception as format_error:
             logger.warning(f"Formatting failed: {format_error}")
             # Fallback to plain text
-            await update.message.reply_text(
+            await current_msg.edit_text(
                 response.text,
             )
         
@@ -113,7 +99,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
 
     except Exception as e:
         logger.error(f"Error in chat function: {str(e)}", exc_info=True)
-        await update.message.reply_text(
+        await current_msg.edit_text(
             "_Error: Something went wrong\\. Please try again\\._",
             parse_mode=ParseMode.MARKDOWN_V2
         )

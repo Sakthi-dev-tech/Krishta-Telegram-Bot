@@ -4,12 +4,26 @@ from typing import Optional
 
 logger = logging.getLogger("Krishta Bot/task_reminder")
 
+def get_today_date_and_time() -> str:
+    """
+    Get the current date and time if you require it.
+
+    Args:
+        None
+
+    Returns:
+        str: Response containing the current date and time in ISO format (YYYY-MM-DD HH:MM)
+    """
+    logger.info("get_today_date_and_time called")
+    return datetime.now().strftime("%Y-%m-%d %H:%M")
+
 def add_task(task: str, time: Optional[str] = None) -> dict:
-    """Add a task to the user's Google Calendar
+    """
+    Add a task to the user's Google Calendar. You are supposed to call get_today_date_and_time() before this function to get the current date and time if required.
     
     Args:
         task (str): The task description to be added
-        time (str, optional): The time for the task in ISO format (YYYY-MM-DD HH:MM)
+        time (str, optional): The time for the task in the format (YYYY-MM-DD HH:MM)
     
     Returns:
         dict: Response containing success status and message
